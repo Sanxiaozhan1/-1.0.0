@@ -1,0 +1,34 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  gravity="left";
+  layout_width="fill";
+  layout_height="fill";
+  backgroundColor="0xFFFFFFFF";
+  {
+    CardView;
+    CardElevation="0dp";
+    radius="30dp";
+    layout_marginRight="5%w";
+    layout_gravity="right";
+    backgroundColor="0x55000000";
+    layout_marginTop="5%h";
+    padding="10dp";
+    {
+      TextView;
+      text="3 | 跳过";
+      padding="5dp";
+      layout_marginLeft="10dp";
+      textSize="15sp";
+      id="t1";
+      layout_marginRight="10dp";
+      textColor="0xFF000000";
+    };
+  };
+  {
+    ImageView;
+    layout_height="match_parent";
+    src="resource/kp.png";
+    layout_width="match_parent";
+  };
+};
